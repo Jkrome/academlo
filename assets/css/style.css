@@ -1,18 +1,18 @@
 :root {
   --header-height: 60px;
-  --bg-body: #fff;
-  --txt-body: #000;
-  --bg-nav: #fff;
-  --color-primary: #fe7777;
+  --bg-body: #75627e67;
+  --txt-body: #f3005d;
+  --bg-nav: #533072;
+  --color-primary: #2db0e4;
   --btn-color: #000;
 }
 
 body.dark {
   --bg-body: #222;
-  --txt-body: #f0f0f0;
+  --txt-body: #00d824;
   --bg-nav: #111;
-  --btn-color: #fff;
-  --color-primary: #fe7777;
+  --btn-color: #8baa00;
+  --color-primary: #35007a;
 }
 
 html {
@@ -38,12 +38,12 @@ body {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 90%;
 }
 
 /* Utilities */
 .section {
-  padding: 45px 0 20px;
+  padding: 50px 0 20px;
 }
 
 .section__title {
@@ -138,7 +138,7 @@ img {
 }
 
 .menu__link:hover {
-  color: var(--color-primary);
+  color: #00d824;
 }
 
 .menu__link.active {
@@ -293,7 +293,7 @@ img {
 
 .hero__title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 400;
 }
 
